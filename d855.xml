@@ -1,5 +1,3 @@
-  GNU nano 2.7.4                                                                           File: .repo/local_manifests/RR.xml                                                                                      
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project path="kernel/lge/g3" name="G3-Development/android_kernel_lge_g3_RR" remote="github" revision="RR_6.0.0" />

@@ -1,0 +1,10 @@
+  GNU nano 2.7.4                                                                           File: .repo/local_manifests/RR.xml                                                                                      
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="kernel/lge/g3" name="G3-Development/android_kernel_lge_g3_RR" remote="github" revision="RR_6.0.0" />
+<project path="device/lge/g3-common" name="G3-Development/android_device_lge_g3-common_RR" remote="github" revision="RR_6.0.0" />
+<project path="device/lge/d855" name="G3-Development/android_device_lge_d855_RR" remote="github" revision="RR_6.0.0" />
+<project path="vendor/lge" name="G3-Development/Proprietary_Vendor_LGE_RR" remote="github" revision="RR_6.0.0 />
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
+</manifest>

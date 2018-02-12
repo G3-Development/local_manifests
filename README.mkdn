@@ -1,4 +1,4 @@
-##### Resurrection Remix for LG G D855 BY Mountaser Halak and Rafael Marchetto. 
+##### Resurrection Remix for LG G3 D855 by Mountaser Halak and Rafael Marchetto. 
 
 
 ##### How to build:
@@ -28,12 +28,12 @@
 ##### Initializing the RR repo and downloading the manifest
 
       $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b oreo
-      $  curl --create-dirs -L -o .repo/local_manifests/D855.xml -O -L https://raw.githubusercontent.com/G3-Development/Local_Manifests/RR_6.0.0/D855.xml
+      $  curl --create-dirs -L -o .repo/local_manifests/d855.xml -O -L https://raw.githubusercontent.com/G3-Development/local_manifests/8.1/d855.xml
 
 ##### Syncing the source
-[Hint: This might take a long time as the source is ~20GB]
+[Hint: This might take a long time as the source is ~25GB]
 
-      $  repo sync -f --force-sync --no-clone-bundle
+      $  repo sync -f --force-sync --no-clone-bundle -j8
 
 ##### Setting Up CCache
 
@@ -44,4 +44,6 @@
 ##### To build Resurrection Remix ROM
 
       $ cd ~/RR
-      $ . build/envsetup.sh && brunch D855
+      $ . build/envsetup.sh 
+	  $ lunch rr_d855-userdebug
+	  $ make bacon -j8

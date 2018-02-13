@@ -13,5 +13,5 @@
 	
 	<!-- Dependencies -->
 	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
-	
+	<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="lineage-15.1" />
 </manifest>

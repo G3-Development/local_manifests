@@ -13,6 +13,6 @@
 	<project path="vendor/lge" name="G3-Development/proprietary_vendor_lge" remote="github" revision="8.1" />
 	
 	<!-- Dependencies -->
-	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.1" />
 	<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="lineage-15.1" />
 </manifest>

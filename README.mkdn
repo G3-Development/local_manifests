@@ -28,7 +28,7 @@
 ##### Initializing the RR repo and downloading the manifest
 
       $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b oreo
-      $  curl --create-dirs -L -o .repo/local_manifests/d855.xml -O -L https://raw.githubusercontent.com/G3-Development/local_manifests/8.1/d855.xml
+      $  curl --create-dirs -L -o .repo/local_manifests/g3.xml -O -L https://raw.githubusercontent.com/G3-Development/local_manifests/8.1/g3.xml
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~25GB]
@@ -44,6 +44,9 @@
 ##### To build Resurrection Remix ROM
 
       $ cd ~/RR
+      $ . build/envsetup.sh && brunch (codename)
+      
+##### Or
       $ . build/envsetup.sh 
-	  $ lunch rr_d855-userdebug
+	  $ lunch rr_d855-userdebug 
 	  $ make bacon -j8
